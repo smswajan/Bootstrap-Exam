@@ -42,6 +42,7 @@
     
     .featured-img{
         margin-left: 20%;
+        margin-bottom: 34px;
         
     }
 }
@@ -52,6 +53,7 @@
 @media (min-width: 577px) and (max-width: 1140px) {
     .featured-img{
         margin-left: 20%;
+        margin-bottom: 34px;
         
     }
     h2 {
