@@ -39,12 +39,21 @@
     .dsp-inb {
         display: inline-block !important;
     }
+    
+    .featured-img{
+        margin-left: 20%;
+        
+    }
 }
 
 /* iPad */
 /* Media Query */
 
 @media (min-width: 577px) and (max-width: 1140px) {
+    .featured-img{
+        margin-left: 20%;
+        
+    }
     h2 {
         font-size: 40px;
     }
