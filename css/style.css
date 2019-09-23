@@ -1,0 +1,224 @@
+/* Author Infor
+Name: Shahjahan Md. Swajan
+Mail: swajan.mis13.du@gmail.com
+twitter: twitter.com/smswajan
+facebook: fb.com/smswajan
+linkedIn:  
+ */
+
+/*
+ ------- Index ------
+ 01. Fuse at
+ 02. 
+ 03. 
+ 04. 
+
+  */
+
+/* Global CSS */
+body {
+    font-family: "Roboto";
+}
+
+
+section {
+    width: 100%;
+    float: left;
+}
+section.no-padding{
+    padding: 28px auto 28px !important;
+}
+
+.btn-animated {
+    transition: all 0.2s;
+    position: relative;
+}
+
+.btn-animated:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.btn-animated:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-animated::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+}
+
+.btn-animated:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-custom {
+    padding: 10px 4px;
+    border-radius: 5px;
+    transition: all 0.2s;
+    position: relative;
+}
+
+
+
+p {
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+
+/* bars */
+.fa.fa-bars {
+    font-size: 38px;
+    outline: none;
+}
+
+.navbar-toggler-icon:active {
+    outline: none;
+}
+
+.fa.fa-bars:active {
+    outline: none;
+}
+
+/* Header-Nagivation */
+.custom-nav {
+    background-color: #edeff1 !important;
+    padding: 20px 0;
+    font-family: "Roboto Slab", serif;
+}
+
+/* Nav item style  */
+ul.navbar-nav.ml-auto {
+    text-align: center;
+}
+
+li.nav-item a.nav-link {
+    color: black;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    display: inline-block;
+}
+.bg-lightblue{
+    background-color: rgba(173, 216, 230, 0.815);
+}
+
+li.nav-item a.nav-link:not(last-child) {
+    text-align: center;
+    margin-right: 12px;
+}
+.btn-green{
+    background-color: rgb(0, 179, 0) !important;
+}
+li.nav-item a.nav-link.active {
+    background-color: rgb(0, 179, 0);
+    color: white;
+    padding: 5px 22px;
+    border-radius: 30px;
+}
+
+li.nav-item a.navbar-toggler-icon:active {
+    border-radius: 0px;
+}
+
+/* Section Fusce -- hero */
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+.hero__content{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.hero__content h1, h2{
+    font-family: "Roboto Slab";
+    letter-spacing: 1px;
+    color: white;
+
+}
+.hero__content h2{
+
+    font-weight: lighter;
+}
+a.hero__btn{
+display: inline-block;
+background-color: rgb(0, 179, 0);
+color: white;
+
+}
+
+/* Section Two */
+.section-2{
+    text-align: center;
+}
+.section-2 img{
+    display: inline-block;
+}
+
+.section-2__content{
+
+}
+.section-2__content h3,p{
+    text-align: left;
+}
+.section-2__content a{
+    background-color: rgb(13, 136, 177);
+    color: white;
+    
+}
+
+
+/*  Section Three */
+/* SEcti9on 4 */
+.section-4_heading{
+
+}
+.section-4_heading h3{
+    color: #161616;
+}
+.section-4_btn a{
+    box-shadow: 0px 0px 5px black;
+    color: black;
+}
+/* card */
+.card-title{
+    font-size: 22px;
+}
+.card-bottom{
+    display: block;
+    width: 100%;
+}
+
+
+footer{
+    margin: 22px auto 22px;
+}
+
+
+
+
+
+
+
