@@ -119,6 +119,10 @@ li.nav-item a.nav-link {
 .bg-lightblue{
     background-color: rgba(173, 216, 230, 0.815);
 }
+span{
+    margin-left: 5px;
+    cursor: pointer;
+}
 
 li.nav-item a.nav-link:not(last-child) {
     text-align: center;
